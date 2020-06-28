@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<meta charset="utf-8">
+	<style>
+		h2{
+			text-align: center;
+		}
+		body{
+			font-size:20px;
+		}
+		.iiit{
+			height: 100px;
+		}
+		.rdip{
+			float:right;
+			margin:10px;
+			padding-top: 20px;
+			padding-right: 10px;
+			font-size: 25px;
+		}
+		#navbar{
+			background-color: #333;
+			color: white;
+		}
+		#navbar ul{
+         margin:0;
+         padding-top: 0;
+         list-style: none;
+         height: 40px;
+         padding-top: 5px;
+
+		}
+		#navbar li{
+			display: inline;
+		}
+
+        .first-li{
+			margin-right: 40px;
+		}
+
+		#navbar a{
+			color: #fff;
+			text-decoration: none;
+			font-size: 25px;
+			padding-left: 30px;
+		}
+	</style>	
+</head>
+<body>
+	<h2>REGISTRATION FORM</h2>
+	<a href="https://www.iiit.ac.in/" target="_blank">
+		<img class="iiit" src="https://www.iiit.ac.in/img/iiit-new.png"></a>
+    <a class="rdip" href="https://serc.iiit.ac.in/rdip">RDIP</a>
+    <nav id="navbar">
+    	<div class="contents">
+    		<ul>
+    			
+    			<li><a class="first-li" href="homepage.html">HOME</a></li>
+    			<li><a href="registration.html">REGISTRATION FORM</a></li>
+    		</ul>
+    	</div>
+    </nav><br>
+    <form>
+    	
+    	<label>First Name: </label>
+    	<input type="text" name="name" id="name"><br><br>
+    	<label>Email: </label>
+    	<input type="text" name="email" id="email"><br><br>
+    	<label>Phone No.:  </label>
+    	<input type="integer" name="phoneno" id="phoneno"><br><br>
+    	<label>Gender:</label>
+    	<input name="male" type="radio" value="MALE" id="male">MALE
+        <input name="female" type="radio" value="FEMALE" id="female">FEMALE
+        <input name="others" type="radio" value="OTHERS" id="others">others<br><br>
+    	<label>Reasons for RDIP </label>
+    	<input name="html" type="radio" value="HTML" id="html">HTML
+    	<input name="css" type="radio" value="CSS" id="css">CSS
+    	<input name="javascript" type="radio" value="JAVA SCRIPT" id="javascript">JAVA SCRIPT<br>
+    	<label>College: </label>
+    	<input type="text" name="college" id="college"><br>
+    	<p>I declare above details given by me are true.</p>
+    	<input type="submit" value="Submit">
+    	<input type="reset" value="Reset">
+    </form>	
+
+
+
+</body>
+</html>
